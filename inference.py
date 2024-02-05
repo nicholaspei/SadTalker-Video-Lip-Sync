@@ -99,8 +99,8 @@ if __name__ == '__main__':
                         help="path to source video")
     parser.add_argument("--checkpoint_dir", default='./checkpoints', help="path to output")
     parser.add_argument("--result_dir", default='./results', help="path to output")
-    parser.add_argument("--batch_size", type=int, default=1, help="the batch size of facerender")
-    parser.add_argument("--enhancer", type=str, default='lip', help="enhaner region:[none,lip,face] \
+    parser.add_argument("--batch_size", type=int, default=2, help="the batch size of facerender")
+    parser.add_argument("--enhancer", type=str, default='face', help="enhaner region:[none,lip,face] \
                                                                       none:do not enhance; \
                                                                       lip:only enhance lip region \
                                                                       face: enhance (skin nose eye brow lip) region")
