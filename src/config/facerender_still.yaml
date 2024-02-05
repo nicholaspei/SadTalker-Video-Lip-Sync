@@ -18,9 +18,9 @@ model_params:
      num_bins: 66
   generator_params:
     block_expansion: 64
-    max_features: 1024
+    max_features: 512
     num_down_blocks: 2
-    reshape_channel: 64
+    reshape_channel: 32
     reshape_depth: 16         # 512 = 32 * 16
     num_resblocks: 6
     estimate_occlusion_map: True
